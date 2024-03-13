@@ -21,7 +21,7 @@ jobs:
       TF_CLI_ARGS_apply: -target=supabase_settings.preview
     defaults:
       run:
-        working-directory: supabase/remotes
+        working-directory: /home/runner/work/supabase/remotes
     outputs:
       db_user: ${{ steps.branch.outputs.user }}
       db_pass: ${{ steps.branch.outputs.password }}
