@@ -11,3 +11,7 @@ supabase db push
 supabase migration list 
 
 
++++++++++++++++++
+supabase migration new create_country_table
+
+
